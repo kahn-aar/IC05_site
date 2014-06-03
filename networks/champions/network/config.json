@@ -1,0 +1,55 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "text": "",
+    "file": "",
+    "link": ""
+  },
+  "text": {
+    "title": "",
+    "more": "",
+    "intro": ""
+  },
+  "legend": {
+    "edgeLabel": "",
+    "colorLabel": "Often played together",
+    "nodeLabel": "Champion",
+	"nodeSize": "Most played champions"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "imageAttribute": false,
+    "groupByEdgeDirection": false
+  },
+  "sigma": {
+    "graphProperties": {
+      "minEdgeSize": 0.2,
+      "maxNodeSize": 20,
+      "maxEdgeSize": 0.5,
+      "minNodeSize": 1
+    },
+    "drawingProperties": {
+      "labelThreshold": 1,
+	  "font-style": "bold",
+      "hoverFontStyle": "bold",
+      "defaultEdgeType": "curve",
+      "defaultLabelColor": "#fff",
+      "defaultLabelHoverColor": "#000",
+      "defaultLabelSize": 14,
+      "activeFontStyle": "bold",
+      "fontStyle": "bold",
+      "defaultHoverLabelBGColor": "#ffffff",
+      "defaultLabelBGColor": "#ddd"
+    },
+    "mouseProperties": {
+      "minRatio": 0.75,
+      "maxRatio": 20
+    }
+  }
+}
