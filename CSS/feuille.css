@@ -1,0 +1,170 @@
+html { 
+  margin:0;
+  padding:0;
+ background-color:black;
+}
+
+
+.middle
+{
+border-radius: 15px 15px 15px 15px;
+background-color:white;
+background-repeat: no-repeat;
+height:26px;
+margin:auto;
+width:1000;
+height:auto;
+}
+
+.menu
+{
+padding-left:10px;
+padding-right:10px;
+padding-top:5px;
+padding-bottom:5px;
+display:inline;
+border-radius: 15px 15px 15px 15px;
+background-color:#85E2F9;
+}
+
+.center
+ {
+ 
+ border-radius: 15px 15px 15px 15px;
+background-color:#A6F3FF;
+background-repeat: no-repeat;
+height:26px;
+margin:auto;
+width:800;
+height:auto;
+
+padding-left:25;
+padding-right:25;
+padding-bottom:25;
+padding-top:25;
+ 
+ text-align:left;
+ }
+ 
+.bot
+{
+font-size:10;
+color:grey;
+}
+
+
+.button
+{
+color:#85E2F9;
+font-weight:bold;
+cursor:pointer;hand;
+padding-left:10px;
+padding-right:10px;
+padding-top:1px;
+padding-bottom:1px;
+display:inline;
+background-color:white;
+}
+
+.button_left
+{
+color:#85E2F9;
+font-weight:bold;
+cursor:pointer;hand;
+padding-left:10px;
+padding-right:10px;
+padding-top:1px;
+padding-bottom:1px;
+display:inline;
+border-radius: 15px 0px 0px 15px;
+background-color:white;
+}
+
+.button_right
+{
+color:#85E2F9;
+font-weight:bold;
+cursor:pointer;hand;
+padding-left:10px;
+padding-right:10px;
+padding-top:1px;
+padding-bottom:1px;
+display:inline;
+border-radius: 0px 15px 15px 0px;
+background-color:white;
+}
+
+
+.button:hover
+{
+color:white;
+font-weight:bold;
+cursor:pointer;hand;
+padding-left:10px;
+padding-right:10px;
+padding-top:1px;
+padding-bottom:1px;
+display:inline;
+background-color:#85E2F9;
+}
+
+.button_left:hover
+{
+color:white;
+font-weight:bold;
+cursor:pointer;hand;
+padding-left:10px;
+padding-right:10px;
+padding-top:1px;
+padding-bottom:1px;
+display:inline;
+border-radius: 15px 0px 0px 15px;
+background-color:#85E2F9;
+}
+
+.button_right:hover
+{
+color:white;
+font-weight:bold;
+cursor:pointer;hand;
+padding-left:10px;
+padding-right:10px;
+padding-top:1px;
+padding-bottom:1px;
+display:inline;
+border-radius: 0px 15px 15px 0px;
+background-color:#85E2F9;
+}
+
+
+
+
+#developercontainer {
+
+}
+
+#jisc {
+width: 71px;
+height: 56px;
+background-image: url('../images/jisc-logo-small.png');
+background-repeat: no-repeat;
+display:inline-block;
+}
+
+#jisc span {
+	display:none;
+}
+
+#oii {
+width: 227px;
+height: 56px;
+background-image: url('../images/oii_text.png');
+background-repeat: no-repeat;
+display:inline-block;
+margin-right:10px;
+
+}
+
+#oii span {
+	display:none;
+}
