@@ -8,14 +8,14 @@
     "link": ""
   },
   "text": {
-    "title": "",
-    "more": "",
-    "intro": ""
+    "title": "LolGraph - Players' layer",
+    "more": "<h3>See ranked spatialisations</h3><ul><li><a href=\"../network_placing/index.html\">See none ranked players</a></li><li><a href=\"../network_bronze/index.html\">See bronze players</a></li><li><a href=\"../network_silver/index.html\">See silver players</a></li><li><a href=\"../network_gold/index.html\">See gold players</a></li><li><a href=\"../network_platinum/index.html\">See platinum players</a></li><li><a href=\"../network_diamond/index.html\">See diamond players</a></li></ul><br/><a href=\"/IC05_site/index.php\">Come back Home</a>",
+    "intro": "<ul><li><a href=\"../network_placing/index.html\">See none ranked players</a></li><li><a href=\"../network_bronze/index.html\">See bronze players</a></li><li><a href=\"../network_silver/index.html\">See silver players</a></li><li><a href=\"../network_gold/index.html\">See gold players</a></li><li><a href=\"../network_platinum/index.html\">See platinum players</a></li><li><a href=\"../network_diamond/index.html\">See diamond players</a></li></ul>"
   },
   "legend": {
-    "edgeLabel": "",
-    "colorLabel": "",
-    "nodeLabel": ""
+    "edgeLabel": "Play with",
+    "colorLabel": "Rank",
+    "nodeLabel": "Player"
   },
   "features": {
     "search": true,

@@ -8,18 +8,18 @@
     "link": ""
   },
   "text": {
-    "title": "LolGraph - Players Placing",
-    "more": "Blal\nblabla Descpition plus longue",
-    "intro": "Blablabla description"
+    "title": "LolGraph - Players Silver",
+    "more": "",
+    "intro": "Here you can see a spatialisation of player of silver level<br /><a href=\"/IC05_site/index.php\">Come back Home</a><br/><a href=\"/IC05_site/networks/players/network_layer/\">Come back players</a>"
   },
   "legend": {
     "edgeLabel": "play with",
-    "colorLabel": "Group",
+    "colorLabel": "Level",
     "nodeLabel": "Player"
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": "Modularity Class",
+    "groupSelectorAttribute": "rank_solo",
     "hoverBehavior": "default"
   },
   "informationPanel": {

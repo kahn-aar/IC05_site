@@ -29,21 +29,11 @@
   </div>
 <div id="mainpanel">
   <div class="col">
-		<div id="maintitle"></div>
     <div id="title"></div>
     <div id="titletext"></div>
     <div class="info cf">
-      <ul>
-        <li><a href="../network_placing/index.html">Voir les placing</a></li>
-        <li><a href="../network_bronze/index.html">Voir les bronzes</a></li>
-        <li><a href="../network_silver/index.html">Voir les argents</a></li>
-        <li><a href="../network_gold/index.html">Voir les golds</a></li>
-        <li><a href="../network_platinum/index.html">Voir les platinum</a></li>
-        <li><a href="../network_diamond/index.html">Voir les diamond</a></li>
-      </ul>
       <dl>
         <dt class="moreinformation"></dt>
-        <dd class="line"><a href="../networkGold/index.html">Voir les bronzes</a></dd>
         <dd class="line"><a href="#information" class="line fb">More about this visualisation</a></dd>
       </dl>
     </div>

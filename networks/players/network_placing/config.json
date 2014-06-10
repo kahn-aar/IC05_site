@@ -9,11 +9,11 @@
   },
   "text": {
     "title": "LolGraph - Players Placing",
-    "more": "Blal\nblabla Descpition plus longue",
-    "intro": "Blablabla description"
+    "more": "Here you can see a spatialisation of player of not ranked players",
+    "intro": "Here you can see a spatialisation of player of not ranked players<br /><a href=\"/IC05_site/index.php\">Come back Home</a><br/><a href=\"/IC05_site/networks/players/network_layer/\">Come back players</a>"
   },
   "legend": {
-    "edgeLabel": "play with",
+    "edgeLabel": "Often played together",
     "colorLabel": "Group",
     "nodeLabel": "Player"
   },
@@ -37,12 +37,12 @@
       "labelThreshold": 10,
       "hoverFontStyle": "bold",
       "defaultEdgeType": "curve",
-      "defaultLabelColor": "#000",
-      "defaultLabelHoverColor": "#fff",
+      "defaultLabelColor": "#fff",
+      "defaultLabelHoverColor": "#000",
       "defaultLabelSize": 14,
       "activeFontStyle": "bold",
       "fontStyle": "bold",
-      "defaultHoverLabelBGColor": "#002147",
+      "defaultHoverLabelBGColor": "#ffffff",
       "defaultLabelBGColor": "#ddd"
     },
     "mouseProperties": {

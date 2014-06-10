@@ -8,18 +8,18 @@
     "link": ""
   },
   "text": {
-    "title": "<strong>LolGraph - Players</strong>",
-    "more": "Each players are linked with the players they played with during the time we picked up data",
-    "intro": "List of different players with some information<br/><a href=\"/IC05_site/index.php\">Come back Home</a>"
+    "title": "LolGraph - Players Platinum",
+    "more": "Here you can see a spatialisation of player of diamond level",
+    "intro": "Here you can see a spatialisation of player of diamond level<br /><a href=\"/IC05_site/index.php\">Come back Home</a><br/><a href=\"/IC05_site/networks/players/network_layer/\">Come back players</a>"
   },
   "legend": {
-    "edgeLabel": "Game played with",
-    "colorLabel": "Ranking",
+    "edgeLabel": "play with",
+    "colorLabel": "Level",
     "nodeLabel": "Player"
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": "rank_solo_norm",
+    "groupSelectorAttribute": "rank_solo",
     "hoverBehavior": "default"
   },
   "informationPanel": {
@@ -37,7 +37,7 @@
       "labelThreshold": 10,
       "hoverFontStyle": "bold",
       "defaultEdgeType": "curve",
-      "defaultLabelColor": "#f",
+      "defaultLabelColor": "#000",
       "defaultLabelHoverColor": "#fff",
       "defaultLabelSize": 14,
       "activeFontStyle": "bold",
