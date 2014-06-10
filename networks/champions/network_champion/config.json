@@ -8,18 +8,19 @@
     "link": ""
   },
   "text": {
-    "title": "LolGraph - Champions",
-    "more": "Blal\nblabla Descpition plus longue",
-    "intro": "Blablabla description"
+    "title": "",
+    "more": "",
+    "intro": ""
   },
   "legend": {
-    "edgeLabel": "play with",
-    "colorLabel": "Group",
-    "nodeLabel": "Champion"
+    "edgeLabel": "",
+    "colorLabel": "Often played together",
+    "nodeLabel": "Champion",
+	"nodeSize": "Most played champions"
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": "Modularity Class",
+    "groupSelectorAttribute": false,
     "hoverBehavior": "default"
   },
   "informationPanel": {
@@ -29,20 +30,21 @@
   "sigma": {
     "graphProperties": {
       "minEdgeSize": 0.2,
-      "maxNodeSize": 7,
+      "maxNodeSize": 20,
       "maxEdgeSize": 0.5,
       "minNodeSize": 1
     },
     "drawingProperties": {
-      "labelThreshold": 10,
+      "labelThreshold": 1,
+	  "font-style": "bold",
       "hoverFontStyle": "bold",
       "defaultEdgeType": "curve",
-      "defaultLabelColor": "#000",
-      "defaultLabelHoverColor": "#fff",
+      "defaultLabelColor": "#fff",
+      "defaultLabelHoverColor": "#000",
       "defaultLabelSize": 14,
       "activeFontStyle": "bold",
       "fontStyle": "bold",
-      "defaultHoverLabelBGColor": "#002147",
+      "defaultHoverLabelBGColor": "#ffffff",
       "defaultLabelBGColor": "#ddd"
     },
     "mouseProperties": {

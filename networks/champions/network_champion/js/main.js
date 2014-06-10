@@ -170,6 +170,7 @@ function setupGUI(config) {
 		//hide more information link
 		$(".colours").hide();
 	}
+	document.getElementById("other").innerHTML="Size  Time played";
 
 	$GP = {
 		calculating: !1,
@@ -569,6 +570,8 @@ function nodeActive(a) {
             //temp_array.push(f.attributes[g].attr);
             e.push(h)
         }
+		
+		
 
         if (image_attribute) {
         	//image_index = jQuery.inArray(image_attribute, temp_array);
