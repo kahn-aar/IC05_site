@@ -19,7 +19,7 @@
 					<div id="menu" class="menu">
 						<div id="button" class="button_left" onclick="javascript:redir('index.php?p=home');">
 						Home
-						</div><div id="button" class="button" onclick="javascript:redir('networks/champions/network_champion/index.php');">
+						</div><div id="button" class="button" onclick="javascript:redir('networks/champions/network_champion/index.html');">
 						Champions Graph
 						</div><div id="button" class="button" onclick="javascript:redir('networks/players/network_layer/index.php');">
 						Players Graph 1

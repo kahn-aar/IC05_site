@@ -3,6 +3,7 @@
 
 <head>
 <title>LOLGraph - players layers</title>
+<link rel="icon" type="image/png" href="/IC05_site/img/icolol.png" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="icon" type="image/png" href="././img/icolol.png" /> 
 <meta charset="utf-8">

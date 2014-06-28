@@ -275,27 +275,10 @@ function configSigmaElements(config) {
     }
     $GP.bg = $(sigInst._core.domElements.bg);
     $GP.bg2 = $(sigInst._core.domElements.bg2);
-    var a = [],plat = [],unranked=[],bronze=[],silver=[],gold=[],diamond=[],challenger=[],
+    var a = [],
         b,x=1;
-		for (b in sigInst.clusters)
-		{
-		if(x==1) {rank="Platinium";plat.push('<div style="line-height:12px"><a href="#' + b + '"><div style="width:40px;height:12px;border:1px solid #fff;background:' + b + ';display:inline-block"></div> ' + rank + ' (' + sigInst.clusters[b].length + ' members)</a></div>');}
-		if(x==2) {rank="Bronze";bronze.push('<div style="line-height:12px"><a href="#' + b + '"><div style="width:40px;height:12px;border:1px solid #fff;background:' + b + ';display:inline-block"></div> ' + rank + ' (' + sigInst.clusters[b].length + ' members)</a></div>');}
-		if(x==3) {rank="Unranked";unranked.push('<div style="line-height:12px"><a href="#' + b + '"><div style="width:40px;height:12px;border:1px solid #fff;background:' + b + ';display:inline-block"></div> ' + rank + ' (' + sigInst.clusters[b].length + ' members)</a></div>');}
-		if(x==4) {rank="Gold";gold.push('<div style="line-height:12px"><a href="#' + b + '"><div style="width:40px;height:12px;border:1px solid #fff;background:' + b + ';display:inline-block"></div> ' + rank + ' (' + sigInst.clusters[b].length + ' members)</a></div>');}
-		if(x==5) {rank="Silver";silver.push('<div style="line-height:12px"><a href="#' + b + '"><div style="width:40px;height:12px;border:1px solid #fff;background:' + b + ';display:inline-block"></div> ' + rank + ' (' + sigInst.clusters[b].length + ' members)</a></div>');}
-		if(x==6) {rank="Diamond";diamond.push('<div style="line-height:12px"><a href="#' + b + '"><div style="width:40px;height:12px;border:1px solid #fff;background:' + b + ';display:inline-block"></div> ' + rank + ' (' + sigInst.clusters[b].length + ' members)</a></div>');}
-		if(x==7) {rank="Challenger";challenger.push('<div style="line-height:12px"><a href="#' + b + '"><div style="width:40px;height:12px;border:1px solid #fff;background:' + b + ';display:inline-block"></div> ' + rank + ' (' + sigInst.clusters[b].length + ' members)</a></div>');}
-		x++;
-		}
-		a.push(unranked[0]);
-		a.push(bronze[0]);
-		a.push(silver[0]);
-		a.push(gold[0]);
-		a.push(plat[0]);
-		a.push(diamond[0]);
-		a.push(challenger[0]);
-		//a.sort();
+		for (b in sigInst.clusters) a.push('<div style="line-height:12px"><a href="#' + b + '"><div style="width:40px;height:12px;border:1px solid #fff;background:' + b + ';display:inline-block"></div> Group ' + (x++) + ' (' + sigInst.clusters[b].length + ' members)</a></div>');
+    //a.sort();
     $GP.cluster.content(a.join(""));
     b = {
         minWidth: 400,
@@ -580,13 +563,14 @@ function nodeActive(a) {
         for (var attr in f.attributes) {
             var d = f.attributes[attr],
                 h = "";
-			if (attr!=image_attribute) {
-			if(attr=="url")
-			{
-				h = '<span><strong>LolKing:</strong> <a target="_blanc" href="' + d + '"> Go to user page</a></span><br/>'
-			}
-			else h = '<span><strong>' + attr + ':</strong> ' + d + '</span><br/>'
-			}
+            if (attr!=image_attribute) {
+                if(attr=="url")
+                {
+                    h = '<span><strong>LolKing:</strong> <a target="_blanc" href="' + d + '"> Go to user page</a></span><br/>'
+                }
+                else 
+                    h = '<span><strong>' + attr + ':</strong> ' + d + '</span><br/>'
+            }
             //temp_array.push(f.attributes[g].attr);
             e.push(h)
         }

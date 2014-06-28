@@ -170,7 +170,6 @@ function setupGUI(config) {
 		//hide more information link
 		$(".colours").hide();
 	}
-	document.getElementById("other").innerHTML="Size  Time played";
 
 	$GP = {
 		calculating: !1,
@@ -564,14 +563,17 @@ function nodeActive(a) {
         for (var attr in f.attributes) {
             var d = f.attributes[attr],
                 h = "";
-			if (attr!=image_attribute) {
-                h = '<span><strong>' + attr + ':</strong> ' + d + '</span><br/>'
-			}
+            if (attr!=image_attribute) {
+                if(attr=="url")
+                {
+                    h = '<span><strong>LolKing:</strong> <a target="_blanc" href="' + d + '"> Go to champion page</a></span><br/>'
+                }
+                else 
+                    h = '<span><strong>' + attr + ':</strong> ' + d + '</span><br/>'
+            }
             //temp_array.push(f.attributes[g].attr);
             e.push(h)
         }
-		
-		
 
         if (image_attribute) {
         	//image_index = jQuery.inArray(image_attribute, temp_array);
